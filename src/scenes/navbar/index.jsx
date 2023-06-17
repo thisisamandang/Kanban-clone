@@ -3,7 +3,7 @@ import Searchbar from "../../components/Searchbar";
 
 function Navbar() {
   return (
-    <div className="flex flex-shrink justify-between items-center border-b ">
+    <div className="flex flex-shrink justify-between items-center border-b border-[#DBDBDB] ">
       <Searchbar />
       <div className="flex">
         <NavIcons />

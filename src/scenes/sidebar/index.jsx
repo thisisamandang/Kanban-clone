@@ -1,6 +1,8 @@
+import Thoughts from "../../components/Thoughts";
+
 function Sidebar() {
   return (
-    <div className="flex-col gap-3 h-screen w-44 md:w-48 lg:w-56 xl:w-60 border-r  ">
+    <div className="flex-col gap-3 mb-10 md:w-48 lg:w-56 xl:w-64 ">
       <div className="flex border-b py-6 lg:py-8 sm:py-6 xs:py-3 md:py-8 items-center">
         <div>
           <svg
@@ -34,7 +36,6 @@ function Sidebar() {
         </div>
         <button>
           <svg
-            className=""
             width="26"
             height="20"
             viewBox="0 0 26 20"
@@ -241,6 +242,119 @@ function Sidebar() {
           <button>Members</button>
         </div>
       </div>
+      <div className="mt-8 flex items-center lg:gap-24 sm:gap-10">
+        <p className="font-bold text-xs  text-[#787486] ml-5">MY PROJECTS</p>
+        <button className="mr-6">
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5.33334 8H10.6667"
+              stroke="#787486"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <path
+              d="M8 10.6667V5.33333"
+              stroke="#787486"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <path
+              d="M6.00001 14.6667H10C13.3333 14.6667 14.6667 13.3333 14.6667 10V6C14.6667 2.66667 13.3333 1.33333 10 1.33333H6.00001C2.66668 1.33333 1.33334 2.66667 1.33334 6V10C1.33334 13.3333 2.66668 14.6667 6.00001 14.6667Z"
+              stroke="#787486"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+      {/* Project Buttons */}
+      <div className="flex mt-9 ml-3 py-2 mr-3 bg-[#5030E514] rounded-md items-center ">
+        <svg
+          className="ml-3"
+          width="8"
+          height="8"
+          viewBox="0 0 8 8"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle cx="4" cy="4" r="4" fill="#7AC555" />
+        </svg>
+        <button className="text-[#0D062D] text-base font-semibold lg:ml-4 lg:mr-16 md:mr-4 sm:ml-2">
+          Mobile App
+        </button>
+        <button>
+          <svg
+            className="lg:mr-6 md:mr-4  sm:mr-2 sm:ml-1"
+            width="15"
+            height="4"
+            viewBox="0 0 15 4"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2.44318 3.16477C2.03409 3.16477 1.68371 3.02083 1.39205 2.73295C1.10417 2.44508 0.962121 2.09659 0.965909 1.6875C0.962121 1.28598 1.10417 0.943182 1.39205 0.659091C1.68371 0.371212 2.03409 0.227273 2.44318 0.227273C2.82955 0.227273 3.17045 0.371212 3.46591 0.659091C3.76515 0.943182 3.91667 1.28598 3.92045 1.6875C3.91667 1.96023 3.8447 2.20833 3.70455 2.43182C3.56818 2.6553 3.38826 2.83333 3.16477 2.96591C2.94508 3.09848 2.70455 3.16477 2.44318 3.16477ZM7.78131 3.16477C7.37222 3.16477 7.02184 3.02083 6.73017 2.73295C6.44229 2.44508 6.30025 2.09659 6.30403 1.6875C6.30025 1.28598 6.44229 0.943182 6.73017 0.659091C7.02184 0.371212 7.37222 0.227273 7.78131 0.227273C8.16767 0.227273 8.50858 0.371212 8.80403 0.659091C9.10328 0.943182 9.25479 1.28598 9.25858 1.6875C9.25479 1.96023 9.18282 2.20833 9.04267 2.43182C8.90631 2.6553 8.72638 2.83333 8.5029 2.96591C8.2832 3.09848 8.04267 3.16477 7.78131 3.16477ZM13.1194 3.16477C12.7103 3.16477 12.36 3.02083 12.0683 2.73295C11.7804 2.44508 11.6384 2.09659 11.6422 1.6875C11.6384 1.28598 11.7804 0.943182 12.0683 0.659091C12.36 0.371212 12.7103 0.227273 13.1194 0.227273C13.5058 0.227273 13.8467 0.371212 14.1422 0.659091C14.4414 0.943182 14.5929 1.28598 14.5967 1.6875C14.5929 1.96023 14.5209 2.20833 14.3808 2.43182C14.2444 2.6553 14.0645 2.83333 13.841 2.96591C13.6213 3.09848 13.3808 3.16477 13.1194 3.16477Z"
+              fill="#0D062D"
+            />
+          </svg>
+        </button>
+      </div>
+      <div className="flex mt-6 ml-3 py-2 mr-3  rounded-md items-center ">
+        <svg
+          className="ml-3"
+          width="8"
+          height="8"
+          viewBox="0 0 8 8"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle cx="4" cy="4" r="4" fill="#FFA500" />
+        </svg>
+
+        <button className="text-[#787486] text-base font-medium lg:ml-4 sm:ml-2">
+          Website Redesign
+        </button>
+      </div>
+      {/* Design System */}
+      <div className="flex mt-6 ml-3 py-2 mr-3  rounded-md items-center ">
+        <svg
+          className="ml-3"
+          width="8"
+          height="8"
+          viewBox="0 0 8 8"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle cx="4" cy="4" r="4" fill="#E4CCFD" />
+        </svg>
+
+        <button className="text-[#787486] text-base font-medium lg:ml-4  sm:ml-2">
+          Design System
+        </button>
+      </div>
+      {/* Wireframes */}
+      <div className="flex mt-6 ml-3 py-2 mr-3  rounded-md items-center ">
+        <svg
+          className="ml-3"
+          width="8"
+          height="8"
+          viewBox="0 0 8 8"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle cx="4" cy="4" r="4" fill="#76A5EA" />
+        </svg>
+
+        <button className="text-[#787486] text-base font-medium lg:ml-4 sm:ml-2">
+          Wireframes
+        </button>
+      </div>
+      <Thoughts />
     </div>
   );
 }

@@ -8,8 +8,19 @@ html,
 body,
 #root,
 .app {
-  height: 100%;
-  width: 100%;
   font-family: "Inter", sans-serif;
   background-color: #ffffff;
+}
+
+.lit-background {
+  position: relative;
+  background-color: #fcd64ab2; /* Replace 'lit-bulb-background.jpg' with your actual image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.svg-container {
+  position: relative;
+  z-index: 1;
 }
