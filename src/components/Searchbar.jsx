@@ -24,7 +24,7 @@ function Searchbar() {
       </div>
       <input
         type="text"
-        className="xs:w-28 sm:w-52 md:w-56 lg:w-60 xl:w-96 rounded-md pl-11 py-2.5 bg-[#F5F5F5] focus:outline-none"
+        className="w-56 md:w-96 rounded-md pl-11 py-2.5 bg-[#F5F5F5] focus:outline-none"
         placeholder="Search for anything..."
         required=""
       />

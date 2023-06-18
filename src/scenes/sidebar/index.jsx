@@ -2,8 +2,8 @@ import Thoughts from "../../components/Thoughts";
 
 function Sidebar() {
   return (
-    <div className="flex-col gap-3 mb-10 md:w-48 lg:w-56 xl:w-64 ">
-      <div className="flex border-b py-6 lg:py-8 sm:py-6 xs:py-3 md:py-8 items-center">
+    <div className="flex-col gap-3 mb-10  md:w-48 lg:w-56 xl:w-64 ">
+      <div className="flex border-b py-6 lg:py-8 xs:hidden ss:hidden md:flex  sm:py-6 xs:py-3 md:py-8 items-center">
         <div>
           <svg
             className="mx-2 lg:ml-6"
@@ -30,11 +30,11 @@ function Sidebar() {
           </svg>
         </div>
         <div>
-          <h1 className="pr-11 md:pr-6 sm:pr-5 lg:pr-8 font-semibold md:text-xl ">
+          <h1 className="pr-11  md:pr-6 sm:pr-5 lg:pr-8 font-semibold md:text-xl ">
             Project M.
           </h1>
         </div>
-        <button>
+        <button className="xs:hidden ss:hidden md:flex ">
           <svg
             width="26"
             height="20"
@@ -55,8 +55,8 @@ function Sidebar() {
       </div>
       {/* Sidebar buttons */}
       {/* Home */}
-      <div className="border-b pb-8 mx-2">
-        <div className="pt-8 ml-4 flex gap-4 text-[#787486]">
+      <div className="border-b pb-8 mx-2 ss:mx-1 xs:mx-1">
+        <div className="pt-8 md:ml-4 ss:ml-2 flex gap-4 text-[#787486]">
           <svg
             width="24"
             height="24"
@@ -81,10 +81,10 @@ function Sidebar() {
               fill="#787486"
             />
           </svg>
-          <button>Home</button>
+          <button className="xs:hidden ss:hidden md:flex ">Home</button>
         </div>
         {/* Messages */}
-        <div className="pt-8 ml-4 flex gap-4 text-[#787486]">
+        <div className="pt-8 md:ml-4 ss:ml-2 flex gap-4 text-[#787486]">
           <svg
             width="24"
             height="24"
@@ -122,10 +122,10 @@ function Sidebar() {
               strokeLinejoin="round"
             />
           </svg>
-          <button>Messages</button>
+          <button className="xs:hidden ss:hidden md:flex ">Messages</button>
         </div>
         {/* Tasks */}
-        <div className="pt-8 ml-4 flex gap-4 text-[#787486]">
+        <div className=" pt-8 md:ml-4 ss:ml-2 flex gap-4 text-[#787486]">
           <svg
             width="24"
             height="24"
@@ -169,11 +169,11 @@ function Sidebar() {
               strokeLinejoin="round"
             />
           </svg>
-          <button>Tasks</button>
+          <button className="xs:hidden ss:hidden md:flex ">Tasks</button>
         </div>
 
         {/* Members */}
-        <div className="pt-8 ml-4 flex gap-4 text-[#787486]">
+        <div className="pt-8 md:ml-4 ss:ml-2 flex gap-4 text-[#787486]">
           <svg
             width="24"
             height="24"
@@ -210,10 +210,10 @@ function Sidebar() {
               strokeLinejoin="round"
             />
           </svg>
-          <button>Members</button>
+          <button className="xs:hidden ss:hidden md:flex ">Members</button>
         </div>
         {/* Settings */}
-        <div className="pt-8 ml-4 flex gap-4 text-[#787486]">
+        <div className="pt-8 md:ml-4 ss:ml-2 flex gap-4 text-[#787486]">
           <svg
             width="24"
             height="24"
@@ -239,10 +239,10 @@ function Sidebar() {
             />
           </svg>
 
-          <button>Members</button>
+          <button className="xs:hidden ss:hidden md:flex ">Settings</button>
         </div>
       </div>
-      <div className="mt-8 flex items-center lg:gap-24 sm:gap-10">
+      <div className="mt-8 flex xs:hidden ss:hidden md:flex  items-center lg:gap-24 sm:gap-10">
         <p className="font-bold text-xs  text-[#787486] ml-5">MY PROJECTS</p>
         <button className="mr-6">
           <svg
@@ -274,7 +274,7 @@ function Sidebar() {
         </button>
       </div>
       {/* Project Buttons */}
-      <div className="flex mt-9 ml-3 py-2 mr-3 bg-[#5030E514] rounded-md items-center ">
+      <div className="flex xs:hidden ss:hidden md:flex  mt-9 ml-3 py-2 mr-3 bg-[#5030E514] rounded-md items-center ">
         <svg
           className="ml-3"
           width="8"
@@ -285,7 +285,7 @@ function Sidebar() {
         >
           <circle cx="4" cy="4" r="4" fill="#7AC555" />
         </svg>
-        <button className="text-[#0D062D] text-base font-semibold lg:ml-4 lg:mr-16 md:mr-4 sm:ml-2">
+        <button className="text-[#0D062D]   text-base font-semibold lg:ml-4 lg:mr-16 md:mr-4 sm:ml-2">
           Mobile App
         </button>
         <button>
@@ -304,7 +304,7 @@ function Sidebar() {
           </svg>
         </button>
       </div>
-      <div className="flex mt-6 ml-3 py-2 mr-3  rounded-md items-center ">
+      <div className="flex mt-6 ml-3 py-2 mr-3 xs:hidden ss:hidden md:flex  rounded-md items-center ">
         <svg
           className="ml-3"
           width="8"
@@ -321,7 +321,7 @@ function Sidebar() {
         </button>
       </div>
       {/* Design System */}
-      <div className="flex mt-6 ml-3 py-2 mr-3  rounded-md items-center ">
+      <div className="flex mt-6 ml-3 py-2 mr-3 xs:hidden ss:hidden md:flex  rounded-md items-center ">
         <svg
           className="ml-3"
           width="8"
@@ -338,7 +338,7 @@ function Sidebar() {
         </button>
       </div>
       {/* Wireframes */}
-      <div className="flex mt-6 ml-3 py-2 mr-3  rounded-md items-center ">
+      <div className="flex mt-6 ml-3 py-2 mr-3 xs:hidden ss:hidden md:flex  rounded-md items-center ">
         <svg
           className="ml-3"
           width="8"

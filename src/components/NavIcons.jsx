@@ -2,7 +2,7 @@
 
 function NavIcons() {
   return (
-    <div className="flex sm:gap-4 sm:mr-4  lg:gap-7 md:mr-8 lg:mr-12">
+    <div className="flex gap-1 md:gap-5 mr-2 md:mr-8 ">
       <button>
         <svg
           width="24"

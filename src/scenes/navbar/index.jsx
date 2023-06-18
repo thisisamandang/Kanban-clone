@@ -3,14 +3,12 @@ import Searchbar from "../../components/Searchbar";
 
 function Navbar() {
   return (
-    <div className="flex flex-shrink justify-between items-center border-b border-[#DBDBDB] ">
+    <div className="flex  justify-between items-center border-b border-[#DBDBDB] ">
       <Searchbar />
       <div className="flex">
         <NavIcons />
-        <div className="flex-col sm:mr-2 md:mr-4 mr-2">
-          <p className="font-normal sm:text-sm xs:text-sm ss:text-xs text-base">
-            Aman Dang
-          </p>
+        <div className="flex-col sm:hidden ss:hidden md:flex sm:mr-2 md:mr-4 mr-2">
+          <p className="font-normal  text-base">Aman Dang</p>
           <p className="font-normal text-right sm:text-xs ss:text-xs xs:text-xs  text-[#787486] text-sm">
             Delhi, India
           </p>
@@ -21,7 +19,7 @@ function Navbar() {
             alt=""
             className="w-10 h-10 mr-2 rounded-3xl"
           />
-          <button className="mr-12 xs:mr-4">
+          <button className="mr-1 md:mr-12">
             <svg
               width="14"
               height="7"

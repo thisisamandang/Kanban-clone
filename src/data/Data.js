@@ -88,7 +88,7 @@ export const sampleDone = [
     content: null,
     thumbnailURL:
       "https://s3-alpha-sig.figma.com/img/8426/669a/5b89fa50e47ff55f7fe04ef644f3a410?Expires=1687737600&Signature=KcC5qOEIosjmVZfUAvh-Cthxc15qrN5Xqcbz3aRKbH9FI2EQ3gDGpyeGfgxEnazTzKxBUofyLk~T62G823IYzgY5fQRovG~nOEy1R0MJs59AZpl8r0f00i6RCRzSPliqM5yMTgChtD9yMXYBqDLaDfMOp0GrKUieAz8A1u~fwhCHtJHpzbZT9kcLMCbtULIh42wucodOVD4AClvx2peLpTXljTYB1hLJbKqkO4jKhq4VuU7pmaqrkQY30zRgrkjx00WBp2fdo78mTAVum1WD4vTid1IBz-KgrtfjxhwB9CZ5YBGkoUU~IKL7GBdFYeFia5vqWHzwnCE-sy9C32smLw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
-    dp: [pp3],
+    dp: [pp3, pp1, pp4],
     comments: "12",
     files: "0",
   },

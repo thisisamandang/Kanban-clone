@@ -8,7 +8,7 @@ function App() {
         <div className="border-r border-[#DBDBDB] ">
           <Sidebar />
         </div>
-        <div className="w-screen ">
+        <div className="w-screen">
           <Navbar />
           <Dashboard />
         </div>

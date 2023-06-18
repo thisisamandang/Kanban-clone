@@ -1,8 +1,8 @@
-import Buttons from "./Buttons";
+import Buttons from "./UI/ButtonsWithSVG";
 
 function DashboardControls() {
   return (
-    <div className="flex justify-between  mt-10 items-center">
+    <div className="flex md:justify-between  ss:justify-center mt-10 items-center">
       <div className="flex ml-12 gap-3">
         <Buttons
           title={"asd"}
@@ -106,8 +106,8 @@ function DashboardControls() {
           }
         />
       </div>
-      {/* Left buttons */}
-      <div className="items-center flex pr-5 ">
+      {/* Right side buttons */}
+      <div className="items-center xs:hidden ss:hidden md:flex pr-5 ">
         <Buttons
           title={"Share"}
           svg={

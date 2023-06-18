@@ -3,13 +3,13 @@ import pp1 from "../../assets/pp1.png";
 import pp2 from "../../assets/pp2.png";
 import pp3 from "../../assets/pp3.png";
 import pp4 from "../../assets/pp4.png";
-import CardsContainer from "../../components/CardsContainer";
+import CardsContainer from "../../components/DragAndDrop";
 function Dashboard() {
   return (
     <>
-      <div className="flex justify-between items-center">
-        <div className="mt-10 ml-12 flex items-center justify-center gap-4">
-          <h1 className="text-5xl font-semibold">Mobile App</h1>
+      <div className="md:flex-row flex  md:justify-between flex-col justify-center items-center ">
+        <div className="mt-10 ml-12 flex items-center justify-center md:gap-4 gap-1">
+          <h1 className=" text-4xl 2xl:text-5xl font-semibold">Mobile App</h1>
           <button>
             <svg
               width="30"
@@ -76,7 +76,7 @@ function Dashboard() {
           </button>
         </div>
         {/* Right side */}
-        <div className="flex mr-12 items-center mt-12">
+        <div className="flex mr-12 items-center mt-10">
           <button>
             <svg
               width="18"

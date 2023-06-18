@@ -1,7 +1,7 @@
 function Thoughts() {
   return (
     // bg-[#fcd64ab2] blur-md
-    <div className="mt-14 flex flex-col justify-center items-center mx-6">
+    <div className="mt-14 flex xs:hidden ss:hidden md:flex  flex-col justify-center items-center mx-6">
       <div>
         <span className="">
           <svg
