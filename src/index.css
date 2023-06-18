@@ -12,15 +12,31 @@ body,
   background-color: #ffffff;
 }
 
-.lit-background {
-  position: relative;
-  background-color: #fcd64ab2; /* Replace 'lit-bulb-background.jpg' with your actual image URL */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .svg-container {
   position: relative;
   z-index: 1;
+}
+.todo-column {
+  background-color: #f5f5f5;
+}
+
+.in-progress-column {
+  background-color: #f5f5f5;
+}
+
+.done-column {
+  background-color: #f5f5f5;
+  /* margin-right: 10px; */
+}
+
+.todo-style {
+  background-color: #5030e5;
+}
+
+.inprogress-style {
+  background-color: #ffa500;
+}
+
+.done-style {
+  background-color: #8bc48a;
 }
