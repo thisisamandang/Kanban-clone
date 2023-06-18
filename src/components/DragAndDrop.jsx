@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
 import { getColumnClass, getColumnStyles } from "./getColumnClass";
-import { sampleColumns } from "../data/data";
+import { sampleColumns } from "../data/Data";
 
 const onDragEnd = (result, columns, setColumns) => {
   if (!result.destination) return;
@@ -41,7 +41,7 @@ const onDragEnd = (result, columns, setColumns) => {
   }
 };
 
-function CardsContainer() {
+function DragAndDrop() {
   const [columns, setColumns] = useState(sampleColumns);
   return (
     <div className=" flex flex-col my-10 mx-5 justify-center lg:justify-around lg:items-baseline items-center lg:flex-row rounded-2xl ">
@@ -286,4 +286,4 @@ function CardsContainer() {
   );
 }
 
-export default CardsContainer;
+export default DragAndDrop;

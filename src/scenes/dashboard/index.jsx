@@ -3,7 +3,7 @@ import pp1 from "../../assets/pp1.png";
 import pp2 from "../../assets/pp2.png";
 import pp3 from "../../assets/pp3.png";
 import pp4 from "../../assets/pp4.png";
-import CardsContainer from "../../components/DragAndDrop";
+import DragAndDrop from "../../components/DragAndDrop";
 function Dashboard() {
   return (
     <>
