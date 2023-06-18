@@ -136,7 +136,7 @@ function Dashboard() {
         </div>
       </div>
       <DashboardControls />
-      <CardsContainer />
+      <DragAndDrop />
     </>
   );
 }
