@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
 import { getColumnClass, getColumnStyles } from "./getColumnClass";
-import { sampleColumns } from "../data/Data";
+import { sampleColumns } from "../data/data";
 
 const onDragEnd = (result, columns, setColumns) => {
   if (!result.destination) return;
